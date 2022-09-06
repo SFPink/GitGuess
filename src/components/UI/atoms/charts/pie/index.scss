@@ -1,0 +1,19 @@
+.pie-chart {
+  .pie-segment {
+    &:hover {
+      path {
+        fill-opacity: 0.6;
+        stroke-opacity: 0.8;
+      }
+    }
+    path {
+      fill-opacity: 0.3;
+      stroke-opacity: 0.4;
+    }
+    text {
+      font-size: 11px;
+      text-anchor: middle;
+      fill: black;
+    }
+  }
+}

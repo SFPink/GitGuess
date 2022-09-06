@@ -1,0 +1,30 @@
+.chart-tooltip {
+  &.html {
+    position: fixed;
+    width: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 70%);
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 4px 0;
+    z-index: 99;
+    font-size: 12px;
+
+    p {
+      margin-bottom: 0px;
+    }
+  }
+
+  rect {
+    fill: white;
+    fill-opacity: 0.8;
+    stroke: #787878;
+    width: 150px;
+    height: 150px;
+  }
+
+  text {
+    width: 150px;
+    height: 150px;
+  }
+}

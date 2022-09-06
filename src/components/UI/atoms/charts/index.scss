@@ -1,0 +1,16 @@
+.chart {
+  color: #635f5d;
+  cursor: default;
+  .axis {
+    .tick {
+      text {
+        font-size: 10px;
+        text-align: left;
+      }
+    }
+    .axis-title {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+}
